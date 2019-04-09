@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module clasess</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>clasess</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Candrei%5C7%5C1%5Cclasess.py">c:\users\andrei\7\1\clasess.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="clasess.html#Calc">Calc</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Calc">class <strong>Calc</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Класс&nbsp;калькулятора<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Calc-check_oper"><strong>check_oper</strong></a>(self, response)</dt><dd><tt>Проверяет&nbsp;входит&nbsp;ли&nbsp;операция&nbsp;в&nbsp;список&nbsp;допустимых.</tt></dd></dl>
+
+<dl><dt><a name="Calc-check_sys"><strong>check_sys</strong></a>(self, response)</dt><dd><tt>Проверяет&nbsp;введенную&nbsp;систему&nbsp;счисления</tt></dd></dl>
+
+<dl><dt><a name="Calc-check_zero"><strong>check_zero</strong></a>(self, num)</dt><dd><tt>Проверяет&nbsp;деления&nbsp;числа&nbsp;на&nbsp;0.</tt></dd></dl>
+
+<dl><dt><a name="Calc-convert_base"><strong>convert_base</strong></a>(self, num, to_base)</dt><dd><tt>Конвертирование&nbsp;результата&nbsp;в&nbsp;указанную&nbsp;систему&nbsp;счисления&nbsp;и&nbsp;его&nbsp;возвразение.</tt></dd></dl>
+
+<dl><dt><a name="Calc-divide"><strong>divide</strong></a>(self, x, y)</dt><dd><tt>Деление&nbsp;чисел.</tt></dd></dl>
+
+<dl><dt><a name="Calc-main"><strong>main</strong></a>(self)</dt><dd><tt>Основная&nbsp;функция.</tt></dd></dl>
+
+<dl><dt><a name="Calc-minus"><strong>minus</strong></a>(self, x, y)</dt><dd><tt>Вычитание&nbsp;чисел.</tt></dd></dl>
+
+<dl><dt><a name="Calc-multiply"><strong>multiply</strong></a>(self, x, y)</dt><dd><tt>Умножение&nbsp;чисел.</tt></dd></dl>
+
+<dl><dt><a name="Calc-number"><strong>number</strong></a>(self, from_base)</dt><dd><tt>Выводит&nbsp;приглашение&nbsp;к&nbsp;вводу&nbsp;числа.&nbsp;В&nbsp;случае&nbsp;успешного&nbsp;завершения&nbsp;всех&nbsp;проверок&nbsp;возвращает&nbsp;число.</tt></dd></dl>
+
+<dl><dt><a name="Calc-operation"><strong>operation</strong></a>(self)</dt><dd><tt>Выводит&nbsp;приглашение&nbsp;к&nbsp;вводу&nbsp;операции.&nbsp;В&nbsp;случае&nbsp;успешного&nbsp;завершения&nbsp;всех&nbsp;проверок&nbsp;возвращает&nbsp;операцию.</tt></dd></dl>
+
+<dl><dt><a name="Calc-plus"><strong>plus</strong></a>(self, x, y)</dt><dd><tt>Сложения&nbsp;чисел.</tt></dd></dl>
+
+<dl><dt><a name="Calc-system"><strong>system</strong></a>(self)</dt><dd><tt>Выводит&nbsp;приглашение&nbsp;к&nbsp;вводу&nbsp;системы&nbsp;счисления.&nbsp;В&nbsp;случае&nbsp;успешного&nbsp;завершения&nbsp;всех&nbsp;проверок&nbsp;возвращает&nbsp;число.</tt></dd></dl>
+
+<dl><dt><a name="Calc-validate_num"><strong>validate_num</strong></a>(self, num, from_base)</dt><dd><tt>Проверяет&nbsp;в&nbsp;введеное&nbsp;число&nbsp;в&nbsp;рамках&nbsp;раннее&nbsp;введенной&nbsp;системы&nbsp;счисления.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>errorDivide</strong> = 'Некорректный ввод!Нельзя делить на 0.'</dl>
+
+<dl><dt><strong>errorForNum</strong> = 'Некорректный ввод! Введите число входящее в систему счисления: '</dl>
+
+<dl><dt><strong>errorForOper</strong> = 'Некорректный ввод! Введите одну из преложенных операций. '</dl>
+
+<dl><dt><strong>errorForSystem</strong> = 'Некорректный ввод! Введите число в диапазоне от 2 до 36'</dl>
+
+<dl><dt><strong>high</strong> = 37</dl>
+
+<dl><dt><strong>low</strong> = 2</dl>
+
+<dl><dt><strong>number1</strong> = 0</dl>
+
+<dl><dt><strong>number2</strong> = 0</dl>
+
+<dl><dt><strong>operationArr</strong> = ['+', '-', '*', '/']</dl>
+
+<dl><dt><strong>result</strong> = 0</dl>
+
+<dl><dt><strong>resutText</strong> = 'Ответ: '</dl>
+
+<dl><dt><strong>system_number1</strong> = 0</dl>
+
+<dl><dt><strong>system_number2</strong> = 0</dl>
+
+<dl><dt><strong>system_result</strong> = 0</dl>
+
+<dl><dt><strong>textForNum</strong> = 'Введите число: '</dl>
+
+<dl><dt><strong>textForOper</strong> = 'Введите оперцию (+,-,*,/): '</dl>
+
+<dl><dt><strong>textForSystem</strong> = 'Введите систему счисления(2 - 36): '</dl>
+
+</td></tr></table></td></tr></table>
+</body></html>
